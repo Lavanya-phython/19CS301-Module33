@@ -20,7 +20,11 @@ Step 7:	 Display the modified string (str3) to show the user the string after th
 Step 8:	 Terminate the program.
 
 ### PROGRAM
-```def replacestr(str1,replace_str):
+```
+#Name:Lavanya S
+#Reg no:212222070017
+
+def replacestr(str1,replace_str):
     str2=input()
     str3=str1.replace(replace_str,str2)
     print(f"The old string is {str1}\nthe new string is {str3}")
@@ -54,7 +58,11 @@ Step 6:	 Print "Not matched!" if the string does not match the pattern.
 Step 7:	 Terminate the program.
 
 ### PROGRAM
-```import re
+```
+#Name:Lavanya S
+#Reg no:212222070017
+
+import re
 str1=input()
 pattern=r"[a]+b{2,3}"
 if re.match(pattern,str1):
@@ -86,7 +94,11 @@ Step 5:	 Print the list l which contains all even numbers from 1 to a-1.
 
 Step 6:	 Terminate the program.
 ### PROGRAM
-```def createlist(a):
+```
+#Name:Lavanya S
+#Reg no:212222070017
+
+def createlist(a):
     l=[]
     for i in range(1,a):
         if (i%2==0):
@@ -119,6 +131,9 @@ Step 6:	 print the resultant tuple.
 Step 7:	 Terminate the program.
 ### PROGRAM
 ```
+#Name:Lavanya S
+#Reg no:212222070017
+
 def create_tuple(N):
     multiples_of_5 = tuple(i for i in range(5, N, 5))
     return multiples_of_5
@@ -152,6 +167,9 @@ Step 5:	 Print the sliced string in the above step.
 Step 6:	 Terminate the program.
 ### PROGRAM
 ```
+#Name:Lavanya S
+#Reg no:212222070017
+
 def slice(input_string):
     substring = input_string[2:10:]
     reversed_substring = substring[::-1]
